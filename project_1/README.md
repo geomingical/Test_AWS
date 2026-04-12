@@ -1,5 +1,14 @@
 # Project 1
 
+## Files
+
+| File                  | Description                                |
+| :-------------------- | :----------------------------------------- |
+| public                | sample dish images for this sample project |
+| menu.jpg              | original menu of the restaurant            |
+| menu-design-prompt.md | Refined design prompts                     |
+| claude-code-prompt.md | Refined coding prompts                     |
+
 ## Original Design Prompts
 
 ```text
