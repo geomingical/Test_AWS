@@ -13,7 +13,7 @@ Please install the following software on your laptop before the course. If you e
 - Claude Desktop
 - Claude Code
 - Pencil.dev Desktop
-- AWS CLI v2 (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+- [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 VS Code Extensions:
 - pencil.dev extension
@@ -28,7 +28,8 @@ VS Code Extensions:
 - SourceTree for Windows
 - Docker Desktop
 - VS Code Extension: code -install-extension ms-vscode-remote.remote.wsl
-- Windows Git (https://git-scm.com/install/windows)
+- [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+- [Windows Git](https://git-scm.com/install/windows)
 - Claude Desktop
 - Pencil.dev Desktop
 
@@ -47,7 +48,7 @@ Install in WSL2:
     sudo apt install unzip
 - pencil CLI:
     npm install -g @pencil.dev/cli
-- AWS CLI v2 (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+- [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 ## Prepare Cloud Service Accounts
 
