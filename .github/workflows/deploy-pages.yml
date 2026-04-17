@@ -6,8 +6,8 @@ on:
       - main
     paths:
       - ".github/workflows/deploy-pages.yml"
-      - "webui/**"
-      - "README.md"
+      - "project_2/webui/**"
+      - "project_2/README.md"
   workflow_dispatch:
 
 permissions:
@@ -32,18 +32,18 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: webui/package-lock.json
+          cache-dependency-path: project_2/webui/package-lock.json
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
       - name: Install frontend dependencies
         run: npm ci
-        working-directory: webui
+        working-directory: project_2/webui
 
       - name: Build Vite app for Pages
         run: npm run build
-        working-directory: webui
+        working-directory: project_2/webui
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
           VITE_WS_ENDPOINT: wss://ezi50tf1w1.execute-api.ap-northeast-1.amazonaws.com/prod
@@ -51,7 +51,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: webui/dist
+          path: project_2/webui/dist
 
   deploy:
     environment:
