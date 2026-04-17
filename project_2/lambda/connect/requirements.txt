@@ -1,0 +1,1 @@
+# Uses the boto3 version bundled with the AWS Lambda Python runtime.
