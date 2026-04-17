@@ -1,5 +1,11 @@
 # Project 2 : Anonymous Chatting System
 
+## Open the deployed app
+
+- GitHub Pages URL: <https://geomingical.github.io/Test_AWS/>
+- The Pages homepage serves the Vite chat client from `webui/`, so opening the URL lands directly on the anonymous chat join screen.
+- The repository also ships `.github/workflows/deploy-pages.yml`, which rebuilds and redeploys the app from `main`.
+
 ## Original Prompt
 
 [Check my conversations](https://claude.ai/share/fcbf28f1-63d1-41e3-918d-d046cc2fdbea)
