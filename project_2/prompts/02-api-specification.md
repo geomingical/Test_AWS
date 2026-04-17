@@ -33,7 +33,7 @@ Route Selection Expression: $request.body.action
 **Example connection URL:**
 
 ```
-wss://abc123.execute-api.us-west-2.amazonaws.com/prod?callsign=CoolDog
+wss://abc123.execute-api.ap-northeast-1.amazonaws.com/prod?callsign=CoolDog
 ```
 
 **Lambda receives (event):**
@@ -44,7 +44,7 @@ wss://abc123.execute-api.us-west-2.amazonaws.com/prod?callsign=CoolDog
     "connectionId": "abc123=",
     "routeKey": "$connect",
     "eventType": "CONNECT",
-    "domainName": "abc123.execute-api.us-west-2.amazonaws.com",
+    "domainName": "abc123.execute-api.ap-northeast-1.amazonaws.com",
     "stage": "prod"
   },
   "queryStringParameters": {
@@ -75,7 +75,7 @@ wss://abc123.execute-api.us-west-2.amazonaws.com/prod?callsign=CoolDog
     "connectionId": "abc123=",
     "routeKey": "$disconnect",
     "eventType": "DISCONNECT",
-    "domainName": "abc123.execute-api.us-west-2.amazonaws.com",
+    "domainName": "abc123.execute-api.ap-northeast-1.amazonaws.com",
     "stage": "prod"
   }
 }
@@ -120,7 +120,7 @@ wss://abc123.execute-api.us-west-2.amazonaws.com/prod?callsign=CoolDog
     "connectionId": "abc123=",
     "routeKey": "sendMessage",
     "eventType": "MESSAGE",
-    "domainName": "abc123.execute-api.us-west-2.amazonaws.com",
+    "domainName": "abc123.execute-api.ap-northeast-1.amazonaws.com",
     "stage": "prod"
   },
   "body": "{\"action\":\"sendMessage\",\"text\":\"Hello everyone!\"}"

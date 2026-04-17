@@ -4,7 +4,7 @@
 
 **Anonymous WebSocket Chat** — A serverless, single-channel, anonymous chat room accessible via mobile and desktop browsers.
 
-**Repository:** `git@github.com:samsonchen/ai_course_2.git`
+**Repository:** `git@github.com:geomingical/Test_AWS.git`
 
 ## Goals
 
@@ -106,7 +106,7 @@ Free static hosting. The frontend is a single-page application (SPA) that makes 
 ## Repository Structure
 
 ```
-ai_course_2/
+Test_AWS/
 ├── webui/                          # Frontend (React + Vite + TypeScript)
 │   ├── src/
 │   │   ├── App.tsx

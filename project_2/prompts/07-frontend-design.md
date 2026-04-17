@@ -4,7 +4,7 @@
 
 A responsive web application (RWD) for anonymous real-time chat, built with React + Vite + TypeScript, hosted on GitHub Pages.
 
-**Repository:** `git@github.com:samsonchen/ai_course_2.git`
+**Repository:** `git@github.com:geomingical/Test_AWS.git`
 **Code location:** `webui/`
 
 ## Technology Stack
@@ -102,7 +102,7 @@ A responsive web application (RWD) for anonymous real-time chat, built with Reac
 
 ```typescript
 // WebSocket endpoint — configurable via environment variable
-const WS_ENDPOINT = import.meta.env.VITE_WS_ENDPOINT || "wss://default.execute-api.us-west-2.amazonaws.com/prod";
+const WS_ENDPOINT = import.meta.env.VITE_WS_ENDPOINT || "wss://default.execute-api.ap-northeast-1.amazonaws.com/prod";
 ```
 
 ### Connection Lifecycle
@@ -247,7 +247,7 @@ npm run dev
 Create `webui/.env.local`:
 
 ```
-VITE_WS_ENDPOINT=wss://{your-api-id}.execute-api.{region}.amazonaws.com/prod
+VITE_WS_ENDPOINT=wss://{your-api-id}.execute-api.ap-northeast-1.amazonaws.com/prod
 ```
 
 ### Production Build
@@ -298,7 +298,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/ai_course_2/',  // Must match GitHub repo name for GitHub Pages
+  base: '/Test_AWS/',  // Must match GitHub repo name for GitHub Pages
 });
 ```
 

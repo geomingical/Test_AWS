@@ -15,7 +15,7 @@ This document covers all AWS resource provisioning for the Anonymous WebSocket C
 - [ ] SAM CLI is installed (`sam --version`)
 - [ ] Python 3.12 is installed
 - [ ] AWS account has permissions for: API Gateway, Lambda, DynamoDB, IAM, CloudFormation
-- [ ] An AWS region is chosen (recommended: `us-west-2`)
+- [ ] An AWS region is chosen (recommended: `ap-northeast-1`)
 
 ### Claude Code Can Verify
 
@@ -267,7 +267,7 @@ Human must answer the prompts:
 | Prompt | Recommended Value |
 |--------|------------------|
 | Stack Name | `anonymous-chat` |
-| AWS Region | `us-west-2` (or preferred region) |
+| AWS Region | `ap-northeast-1` (or preferred region) |
 | Confirm changes before deploy | `N` |
 | Allow SAM CLI IAM role creation | `Y` |
 | Disable rollback | `N` |
